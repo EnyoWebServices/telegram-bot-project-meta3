@@ -5,7 +5,7 @@ async function main() {
   const { TELEGRAM_BOT_TOKEN, TELEGRAM_WEBHOOK_SECRET } = process.env;
 
   const baseUrl =
-    "https://telegram-bot-project-iqzg.onrender.com";
+    "https://badshahbroking-officialmngl.onrender.com";
 
   if (!TELEGRAM_BOT_TOKEN || !TELEGRAM_WEBHOOK_SECRET) {
     throw new Error("Token ya webhook secret missing hai .env mein");
